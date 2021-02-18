@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cart {
+    color: #3d2514;
+    font-family: "Bebas Neue Bold";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 4.17px;
+    text-decoration: none;
+}
+
+.products-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.products-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.product-header {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid #ffc045;;
+    margin: 0 auto;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.product-title {
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.price {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ffc045;;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.total {
+    width: 10%;
+    border-bottom: 1px solid #ffc045;;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.quantity {
+    width: 15%;
+    border-bottom: 1px solid #ffc045;;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product {
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ffc045;;
+    font-size: 16px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.products img {
+    width: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.basketTotalTitle {
+    width: 20%;
+}

@@ -24,9 +24,18 @@
     margin-left: 57px;
 }
 .D_logo{
-    float: right;
-    margin-left: 675px;
+    margin-left: 590px;
     margin-top: 57px;
+    padding: 10px;
+}
+.D_text{
+    margin-top: 70px;
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
 }
 .menu{
     text-align: right;
@@ -43,6 +52,8 @@
     flex-direction: column;
     display: block;
     border: 5px dashed #3D2514 ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 .bigtext{
     display: block;
@@ -53,9 +64,15 @@
 }
 .anounce{
     font-size: 100px;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 300;
+    font-size: 90px;
 }
 .subanounce{
     font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 300;
+    font-size: 60px;
 }
 .images{
     position: relative;
@@ -103,6 +120,8 @@
     z-index: 5;
     border: 5px dashed white;
     border-radius: 60%;
+    font-family: "Bebas Neue Bold";
+    font-weight: 600;
     font-size: 40px;
     color: white;
 }
@@ -113,4 +132,13 @@
     left: 450px;
     transform: translate(-50%, -50%);
     z-index: 1;
+}
+.navifonts{
+    color: #3d2514;
+    font-family: "Bebas Neue Bold";
+    font-size: 21px;
+    font-weight: 400;
+    text-align: left;
+    text-transform:uppercase;
+    opacity: 1;
 }

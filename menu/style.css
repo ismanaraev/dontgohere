@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.cart {
+    color: #3d2514;
+    font-family: "Bebas Neue Bold";
+    font-size: 21px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 4.17px;
+}
+.content {
+    width: 1333px;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+
+
+.content-title {
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 37.5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 31px;
+}
+
+.content-p {
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 29.17px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 65px;
+}
+
+.card-item {
+    width: 350px;
+}
+
+.card-img {
+    width: 342px;
+    height: 271px;
+    margin-bottom: 7px;
+}
+
+
+.card-h3 {
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 37.5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 23px;
+}
+
+.card-p {
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20.83px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 36px;
+}
+
+.card-h4 {
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 37.5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 13px;
+}
+
+.add {
+    width: 195px;
+    height: 57px;
+    background-color: #bf2222;
+    outline: none;
+
+    color: #ffffff;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+
+    display: block;
+    margin: auto;
+}
+
+.add:hover {
+    background-color: #ffffff;
+    border: 1px solid #bf2222;
+    color: #bf2222;
+}
