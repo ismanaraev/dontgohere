@@ -7,11 +7,9 @@
     width: 1441px;
     margin: 0 auto;
 }
-.a{
-    text-decoration: none;
-}
+
 .hd{
-    width: 1491px;
+    width: 1391px;
     height: 826px;
     background-image: url("Rectangle@1X.png");
     background-color: transparent;
@@ -36,6 +34,16 @@
     font-weight: 400;
     text-align: left;
     text-transform: uppercase;
+}
+.cart {  
+    color: #3d2514;
+    font-family: "Bebas Neue Bold";
+    font-size: 21px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 4.17px;
+    margin-left: 50px;
 }
 .menu{
     text-align: right;
@@ -367,4 +375,17 @@
 }
 .icon{
     padding: 5px;
+}
+.radio{
+    margin-left: 50px;
+}
+.rbutton{
+    size: 10px;
+    border: 10px solid #DCDCDC;
+    border-radius: 50%;
+}
+.rbutton:hover{
+    size: 10px;
+    border: 10px solid #FFC045;
+    border-radius: 50%;
 }

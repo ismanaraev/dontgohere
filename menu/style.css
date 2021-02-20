@@ -25,7 +25,50 @@
 
 }
 
-
+.hd{
+    width: 1391px;
+    height: 200px;
+    background-image: url("../mainpage/Rectangle@1X.png");
+    background-color: transparent;
+}
+.bg{
+    display: inline-flex;
+}
+.logo{
+    margin-top: 53px;
+    margin-left: 57px;
+}
+.D_logo{
+    margin-left: 590px;
+    margin-top: 57px;
+    padding: 10px;
+}
+.D_text{
+    margin-top: 70px;
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+}
+.menu{
+    text-align: right;
+    margin-top: 30px;
+}
+.menu li{
+    display: inline-block;
+    margin-right: 100px;
+}
+.navifonts{
+    color: #3d2514;
+    font-family: "Bebas Neue Bold";
+    font-size: 21px;
+    font-weight: 400;
+    text-align: left;
+    text-transform:uppercase;
+    opacity: 1;
+}
 
 .content-title {
     color: #3d2514;
