@@ -15,14 +15,14 @@
 }
 .content {
     width: 1333px;
-    margin: auto;
+    margin: 0 auto;
+    position: absolute;
 }
 
 .cards {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-
 }
 
 .hd{

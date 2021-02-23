@@ -172,3 +172,29 @@
     margin-left: 1200px;
 
 }
+.bg{
+    display: inline-flex;
+    background: url(img/Background-svg.webp);
+    background-repeat: no-repeat;
+}
+
+.menu{
+    text-align: right;
+    margin-top: 30px;
+}
+.menu li{
+    display: inline-block;
+    margin-right: 100px;
+}
+.menu a{
+    text-decoration: none;
+}
+.navifonts{
+    color: #3d2514;
+    font-family: "Bebas Neue Bold";
+    font-size: 21px;
+    font-weight: 400;
+    text-align: left;
+    text-transform:uppercase;
+    opacity: 1;
+}

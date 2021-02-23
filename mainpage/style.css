@@ -7,7 +7,6 @@
     width: 1441px;
     margin: 0 auto;
 }
-
 .hd{
     width: 1391px;
     height: 826px;
@@ -52,6 +51,9 @@
 .menu li{
     display: inline-block;
     margin-right: 100px;
+}
+.menu a{
+    text-decoration: none;
 }
 .special{
     display: flex;
@@ -318,6 +320,7 @@
     font-weight: 400;
     font-size: 25px;
     color: white;  
+    text-decoration: none;
 }
 .footer{
     display: flex;
@@ -366,6 +369,9 @@
     font-weight: 400;
     font-size: 20px;
     color: white; 
+}
+.mediatext a{
+    text-decoration: none;
 }
 .icons{
     margin-top: 100px;
